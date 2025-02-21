@@ -91,6 +91,12 @@ footer {
     font-weight: bold;
 }
 
+.DataDiri {
+    display:flex;
+    color:white;
+    Padding:20px;
+}
+    
 @media (max-width: 640px) {
     .content {
         gap: 16px;
@@ -98,3 +104,4 @@ footer {
         flex-direction: column;
     }
 }
+
