@@ -27,7 +27,7 @@ body {
 }
 
 .menu-navbar:hover {
-    background-color:aqua;
+    background-color:#3f8e00;
     color:black;
     font-weight:bold;
     transition:0.5s ease-in-out;
@@ -64,11 +64,11 @@ h1 {
     gap:10px;
     align-items: center;
     background-color: #3f8e00;
-    padding: 17px 64px;
-    font-size: 20px;
+    padding: 15px 15px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     border: solid 1px #62ba1b;
 }
 
@@ -83,7 +83,7 @@ h1 {
 
 footer {
     display:flex;
-    Background-color:green;
+    Background-color:#1b1b1b;
     justify-content:center;
     align-items: center;
     color:white;
