@@ -6,3 +6,8 @@ Merubah Total Menu Index, Header dan Footer
 
 24/03/2025 pukul 09:00
 Memindah halaman index ke halaman about, karna kayaknya lebih cocok seperti itu, merubah tampilan navbar dan footer,
+
+24/03/2025 pukul 22:00
+Merubah semua extensi gambar menjadi '.webp' , foto_CV.png di hapus, foto_CV-2 di rename menjadi foto_CV., menambahkan style default untuk <a>, menambahkan container Main, penyesuaian style css = Memindahkan semua margin dan padding kanan/kiri halaman ke class container menjadi 'padding: 0 3%', merubah style hover untuk durasi transisi navbar dan link socialmedia, merubah padding class socialMedia, merubah padding dan width pada navbar. menambahkan 'alt=' pada setiap gambar. menambahkan background color dan padding 10px pada foto profil. menghilangkan class 'Atentang', memperbaiki isi dan css 'Aprofil'.
+
+-- Masih Ada Masalah di Halaman Galery dan Portofolio, untuk footer tidak mau jadi full page-size untuk width nya, harusnya sih bisa full tapi ada paddingnya, ini malah max content doang, semoga setelah di upload ada perubahan

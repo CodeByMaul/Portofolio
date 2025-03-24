@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/* Reset Style */
+/* ----- Reset Style ----- */
 * {
     margin: 0;
     padding: 0;
@@ -16,35 +16,37 @@ body {
 }
 
 .container {
+    display:grid;
+    place-content: center;
     background-color: black;
     font-family: "IBM Plex Mono", serif;
+    padding: 0% 3%;;
 }
 
 h1 {
     color:white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
 }
 
-/* Reset Style End */
+a {
+    color: white;
+}
 
-/* Navigation Bar Start */
+/* ----- Reset Style End ----- */
+
+/* ----- Navigation Bar Start ----- */
 .navbar {
     display:flex;
     gap: 70px;
     background-color: #1b1b1b;
-    padding:15px;
+    padding:15px 30px;
     height: 15vh;    
     align-items: center;
     justify-content:space-between;
-    margin: 0% 5%;
     border-radius: 0px 0px 20px 20px;
     position: fixed;
-    width: 90%;
-}
-
-.navbar a {
-    color:white;
+    width: 94%;
 }
 
 .navJudul {
@@ -59,9 +61,8 @@ h1 {
 .menu-navbar:hover {
     background-color: rgb(20, 90, 246);
     color:black;
-    font-weight:bold;
     transition:0.5s ease-in-out;
-    transition-delay:0.3s;
+    transition-delay:0.2s;
     border-radius: 10px;
 }
 
@@ -71,21 +72,31 @@ h1 {
     font-weight: bold;
 }
 
-/* Navigation Bar End */
+/* ----- Navigation Bar End ----- */
 
-/* Home Baru Start */
-
-.home {
+/* ----- Container Main Content Start ----- */
+.home { /* Container Khusus Main Content Home */
     display:grid;
     height:91vh;
+    padding: 0px 150px;    
+    padding-top: 8%;
 }
+
+.main { /* Container Khusus Main Content Semua Halaman Selain Home */
+    display:grid;
+    padding: 0px 150px;    
+    padding-top: 8%;
+}
+
+/* ----- Container Main Content End ----- */
+
+/* ----- Home Baru Start ----- */
 
 .started {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 180px;
-    padding-top: 7%;
+    padding: 10px 0px;
     gap:100px;
 }
 
@@ -111,16 +122,18 @@ h1 {
 .started button:hover {
     background-color: rgb(20, 90, 246);
     font-weight: bold;
+    transition:0.3s ease-in-out;
 }
 
 .started img {
     width: 30%;
     height: auto;
     border-radius: 50%;
+    background-color: #9c9c9c;
+    padding: 10px;
 }
 
 .socialMedia {
-    padding: 0px 180px;
     display: grid;
     gap: 20px;
     padding-bottom: 20px;
@@ -129,7 +142,7 @@ h1 {
 .socialMedia div {
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px
+    padding: 0 50% 0 2%;
 }
 
 .socialMedia a {
@@ -146,61 +159,57 @@ h1 {
     height: auto;
     filter:invert(50%) grayscale(100%);
     margin:auto;
+    font-size: 8px;
 }
 
 .socialMedia a:hover {
     background-color: white;
+    transition:0.6s ease-in-out;
 }
 
 .socialMedia a:hover img {
     filter:invert(0%) grayscale(0%);
+    transition:0.8s ease-in-out;
 }
-/* Home Baru End */
+/* ----- Home Baru End ----- */
 
-/* Halaman About Start */
+/* ----- Halaman About Start ----- */
 .Aprofil {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
     gap:15px;
+    padding: 0 5%;
     padding-top: 100px;
+    padding-bottom: 50px;
 }
 
-.Aprofil img{
-    width: 20%;
+.Aprofil img {
+    width: 15%;
     height: auto;
     border-radius: 50%;
+    background-color: #9c9c9c;
+    padding: 10px;
+    margin-top: 10px;;
+}
+
+.Aprofil p {
+    display: inline-block;
+    text-align: justify;
+    line-height: 1.5;
 }
 
 .Aprofil a {
     padding: 10px;
     border-radius: 20px;
     background-color: rgb(20, 130, 246);
-    color:white;
     font-size: 13px;
 }
 
 .Aprofil a:hover {
     background-color: rgb(20, 90, 246);
     font-weight: bold;
-}
-
-.Atentang {
-    display:flex;
-    flex-direction: column;
-    gap:15px;
-    justify-content: center;
-    align-items: center;
-    background-color: #1b1b1b;
-    padding: 5%;
-    margin: 0 5%;
-    border-radius: 20px;
-}
-
-.Atentang p {
-    text-align: center;
 }
 
 .Aportfolio  {
@@ -233,17 +242,15 @@ h1 {
     padding:20px;
 }
 
-/* Halaman About End */
+/* ----- Halaman About End ----- */
 
-/* Footer Start */
+/* ----- Footer Start ----- */
 footer {
     display:flex;    
     justify-content:center;
     align-items: center;
     color:white;
-    flex-shrink: none;
     bottom: 0;
-    padding: 0 5%;
 }
 
 footer p {
@@ -254,13 +261,16 @@ footer p {
     text-align: center;
     border-radius: 20px 20px 0px 0px;
 }
-/* Footer End */
+/* ----- Footer End ----- */
 
+/* ----- Unique Start ----- */
 .Alert {
     padding: 45vh 10%;
     height:91vh;
 }
+/* ----- Unique End ----- */
 
+/* ----- Responsive Website Style ----- */
 @media (max-width: 767px) {
     .content {
         gap: 16px;
