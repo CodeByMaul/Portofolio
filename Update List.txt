@@ -3,3 +3,6 @@ Merubah Warna menu-hover, merubah footer
 
 22/03/2025
 Merubah Total Menu Index, Header dan Footer
+
+24/03/2025 pukul 09:00
+Memindah halaman index ke halaman about, karna kayaknya lebih cocok seperti itu, merubah tampilan navbar dan footer,

@@ -7,14 +7,26 @@
     box-sizing: border-box;
     text-decoration: none;
     border: none;
-    outline: none;        
+    outline: none;
+    
+}
+
+body {
     color:#9c9c9c;
-  }
+}
 
 .container {
     background-color: black;
     font-family: "IBM Plex Mono", serif;
 }
+
+h1 {
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* Reset Style End */
 
 /* Navigation Bar Start */
 .navbar {
@@ -29,7 +41,10 @@
     border-radius: 0px 0px 20px 20px;
     position: fixed;
     width: 90%;
+}
 
+.navbar a {
+    color:white;
 }
 
 .navJudul {
@@ -37,7 +52,6 @@
 }
 
 .menu-navbar {
-    color:white;
     text-decoration: none;
     padding: 17px;
 }
@@ -56,26 +70,111 @@
     padding: 17px;
     font-weight: bold;
 }
+
 /* Navigation Bar End */
 
 /* Home Baru Start */
-.Hprofil {
+
+.home {
+    display:grid;
+    height:91vh;
+}
+
+.started {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 180px;
+    padding-top: 7%;
+    gap:100px;
+}
+
+.started div {
+    display: grid;
+    gap: 30px;
+    width: 70%;
+}
+
+.started p {
+    text-align: justify;
+}
+
+.started button {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(20, 130, 246);
+    color:white;
+    max-width: 50%;
+    cursor:pointer;
+}
+
+.started button:hover {
+    background-color: rgb(20, 90, 246);
+    font-weight: bold;
+}
+
+.started img {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.socialMedia {
+    padding: 0px 180px;
+    display: grid;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.socialMedia div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px
+}
+
+.socialMedia a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 11vh;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.socialMedia img {
+    width: 100%;
+    height: auto;
+    filter:invert(50%) grayscale(100%);
+    margin:auto;
+}
+
+.socialMedia a:hover {
+    background-color: white;
+}
+
+.socialMedia a:hover img {
+    filter:invert(0%) grayscale(0%);
+}
+/* Home Baru End */
+
+/* Halaman About Start */
+.Aprofil {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 10%;
     padding-bottom: 50px;
     gap:15px;
+    padding-top: 100px;
 }
 
-.Hprofil img{
+.Aprofil img{
     width: 20%;
     height: auto;
     border-radius: 50%;
 }
 
-.Hprofil a {
+.Aprofil a {
     padding: 10px;
     border-radius: 20px;
     background-color: rgb(20, 130, 246);
@@ -83,12 +182,12 @@
     font-size: 13px;
 }
 
-.Hprofil a:hover {
+.Aprofil a:hover {
     background-color: rgb(20, 90, 246);
     font-weight: bold;
 }
 
-.Htentang {
+.Atentang {
     display:flex;
     flex-direction: column;
     gap:15px;
@@ -96,20 +195,22 @@
     align-items: center;
     background-color: #1b1b1b;
     padding: 5%;
+    margin: 0 5%;
+    border-radius: 20px;
 }
 
-.Htentang p {
+.Atentang p {
     text-align: center;
 }
 
-.Hportfolio  {
+.Aportfolio  {
     display:grid;
     place-content: center;
     text-align: center;
     padding: 5%;
 }
 
-.Hport {
+.Aport {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -117,7 +218,7 @@
     padding: 10px;
 }
 
-.Hport div {
+.Aport div {
     display:grid;
     gap:10px;
     place-content: center;
@@ -126,51 +227,38 @@
     border-radius: 20px;
 }
 
-.Hport div img {
+.Aport div img {
     max-width: 100%;
     height: auto;
     padding:20px;
 }
 
-/* Home Baru End */
+/* Halaman About End */
 
 /* Footer Start */
 footer {
-    display:flex;
-    background-color:#1b1b1b;
-    justify-content:space-between;
+    display:flex;    
+    justify-content:center;
     align-items: center;
     color:white;
-    height: 10vh;
     flex-shrink: none;
-    padding: 0% 5%;
+    bottom: 0;
+    padding: 0 5%;
 }
 
-footer a {
-    text-decoration: underline;
-    color:rgb(59, 130, 246);
+footer p {
+    background-color:#1b1b1b;
+    width:100%;    
+    height: 9vh;
+    place-content: center;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
 }
-
 /* Footer End */
 
-.judul {
-    font-weight: bold;
-    font-size: 20px;
-}
-#Content2 {
-    gap:32px;
-    padding:40px 180px;
-    align-items:center;
-    height: max-content;
-    color:#ffff;    
-}
-
-.DataDiri {
-    color:white;
-}
-
 .Alert {
-    color:yellowgreen
+    padding: 45vh 10%;
+    height:91vh;
 }
 
 @media (max-width: 767px) {
