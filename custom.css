@@ -17,7 +17,6 @@ body {
 
 .container {
     display:grid;
-    place-content: center;
     background-color: black;
     font-family: "IBM Plex Mono", serif;
     padding: 0% 3%;;
@@ -87,7 +86,6 @@ a {
     padding: 0px 150px;    
     padding-top: 8%;
 }
-
 /* ----- Container Main Content End ----- */
 
 /* ----- Home Baru Start ----- */
@@ -117,12 +115,12 @@ a {
     color:white;
     max-width: 50%;
     cursor:pointer;
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.8);
 }
 
 .started button:hover {
     background-color: rgb(20, 90, 246);
     font-weight: bold;
-    transition:0.3s ease-in-out;
 }
 
 .started img {
@@ -210,6 +208,33 @@ a {
 .Aprofil a:hover {
     background-color: rgb(20, 90, 246);
     font-weight: bold;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 1), 
+                0 0 15px rgba(30, 144, 255, 0.8);
+    transform: scale(1.05); /* Membuat tombol sedikit membesar */
+    transition:0.3s ease-in-out;
+}
+
+.Askill {
+    display: grid;
+    gap: 30px;
+    background-color: #1b1b1b;
+    border-radius: 20px;
+    padding:25px;
+}
+
+.Askill h1 {
+    text-align: center;
+}
+
+.Askill div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0f0f0f;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 20%;
+
 }
 
 .Aportfolio  {
@@ -265,17 +290,36 @@ footer p {
 
 /* ----- Unique Start ----- */
 .Alert {
-    padding: 45vh 10%;
-    height:91vh;
+    padding: 34vh 0vh;
 }
 /* ----- Unique End ----- */
 
 /* ----- Responsive Website Style ----- */
 @media (max-width: 767px) {
-    .content {
+    
+
+    .home {
+        height: max-content;
+        padding: 0px;
+        padding-top: 100px;
+    }
+
+    .started {
         gap: 16px;
         padding: 16px 24px;
+        flex-direction: column-reverse;
+    }
+
+    .socialMedia {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+    .socialMedia div {
+        padding: 0px;
+        gap: 50px
     }
 }
 
