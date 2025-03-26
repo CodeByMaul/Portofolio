@@ -7,8 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     border: none;
-    outline: none;
-    
+    outline: none;    
 }
 
 body {
@@ -69,6 +68,21 @@ a {
     text-decoration: none;
     padding: 17px;
     font-weight: bold;
+}
+
+/* Hamburger Menu */
+.burger {
+    display: none; /* Default: Tidak ditampilkan */
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 30px;
+    height: 4px;
+    background: white;
+    transition: 0.3s;
 }
 
 /* ----- Navigation Bar End ----- */
@@ -296,8 +310,51 @@ footer p {
 
 /* ----- Responsive Website Style ----- */
 @media (max-width: 767px) {
+    /* --- Navbar Responsive --- */
+    .navbar {
+        height: max-content;
+        padding:20px 35px;
+    }
     
+    .nav-link {
+        display: none; /* Sembunyikan menu nav-link asli */
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: #1b1b1b;
+        width: 200px;
+        text-align: center;
+        padding: 10px 0;
+    }
 
+    .nav-link a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .burger {
+        display: flex; /* Munculkan icon burger */
+    }
+
+    /* Animasi burger berubah jadi "X" saat aktif */
+    .burger.active .line1 {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .burger.active .line2 {
+        opacity: 0;
+    }
+
+    .burger.active .line3 {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    .nav-link.show {
+        display: flex;
+    }
+
+    /* --- Home Responsive --- */
     .home {
         height: max-content;
         padding: 0px;
