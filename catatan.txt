@@ -1,0 +1,76 @@
+**📌 Apakah Banyak Media Query Menurunkan Performa Website?**  
+Jawabannya: **Tidak secara langsung**, tetapi **bisa berdampak jika tidak dioptimalkan dengan baik**.  
+
+---
+
+### **🔍 Bagaimana Media Query Bekerja?**  
+Ketika halaman web dimuat:  
+1. Browser akan membaca file **CSS secara keseluruhan**, termasuk media query.  
+2. **Media query hanya akan aktif jika kondisinya terpenuhi**.  
+3. Browser **tidak memproses media query yang tidak sesuai dengan ukuran layar saat itu**.  
+
+💡 **Jadi, banyaknya media query tidak langsung membuat reload halaman lebih lambat.**  
+
+---
+
+### **⚠️ Faktor yang Bisa Menurunkan Performa**
+Jika media query terlalu banyak, ada beberapa hal yang bisa mempengaruhi kecepatan website:  
+
+1. **Ukuran File CSS Membesar**  
+   - Semakin banyak media query, semakin besar file **CSS**.  
+   - Jika ukurannya besar, browser butuh waktu lebih lama untuk memuatnya.  
+
+2. **Terlalu Banyak Override**  
+   - Jika banyak aturan **saling menimpa**, browser harus membaca ulang dan memproses ulang banyak gaya.  
+
+3. **CSS Tidak Di-Minify**  
+   - Jika tidak dioptimalkan, ukuran file lebih besar dari yang seharusnya.  
+   - Gunakan **CSS minifier** untuk mengurangi ukuran file.  
+
+4. **Tidak Menggunakan `media="screen"` dalam `<link>`**  
+   - Jika tidak spesifik, browser tetap akan memuat semua CSS meskipun tidak dibutuhkan.  
+   - Contoh penggunaan yang lebih efisien:  
+     ```html
+     <link rel="stylesheet" href="style.css" media="screen">
+     ```  
+
+---
+
+### **✅ Cara Optimasi Media Query agar Website Tetap Cepat**
+1. **Gunakan Media Query yang Efektif (Jangan Berlebihan)**  
+   - Gunakan **hanya 3-5 breakpoints utama**:  
+     ```css
+     @media (max-width: 1200px) { } /* Laptop */
+     @media (max-width: 1024px) { } /* Tablet Landscape */
+     @media (max-width: 768px) { }  /* Tablet Potrait */
+     @media (max-width: 480px) { }  /* Mobile */
+     ```
+
+2. **Gunakan CSS Grid atau Flexbox Sebisa Mungkin**  
+   - Dengan **Flexbox/Grid**, banyak layout bisa **responsif tanpa perlu banyak media query**.  
+
+3. **Minify CSS sebelum Upload**  
+   - Gunakan tools seperti:  
+     - [CSS Minifier](https://cssminifier.com/)  
+     - [Terser](https://terser.org/)  
+   - Bisa juga di VS Code dengan extension **"Minify"**.  
+
+4. **Gunakan CSS Preprocessor (Seperti SASS/SCSS)**  
+   - SCSS bisa membuat media query lebih terstruktur:  
+     ```scss
+     .navbar {
+       background: black;
+       @media (max-width: 768px) {
+         background: red;
+       }
+     }
+     ```
+
+---
+
+### **📌 Kesimpulan**
+✅ **Media query tidak langsung menurunkan performa**, tetapi jika jumlahnya sangat banyak dan tidak dioptimalkan, bisa membuat CSS lebih berat.  
+✅ Gunakan **breakpoints yang efektif**, **Flexbox/Grid**, dan **minify CSS** untuk hasil terbaik.  
+✅ Jika proyek semakin besar, **pertimbangkan untuk memisahkan media query ke file terpisah (`responsive.css`)**.  
+
+🚀 **Jadi, selama dikelola dengan baik, banyak media query tidak masalah!**

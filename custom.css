@@ -11,14 +11,15 @@
 }
 
 body {
-    color:#9c9c9c;
+    color:#b8b8b8;
 }
 
 .container {
     display:grid;
     background-color: black;
     font-family: "IBM Plex Mono", serif;
-    padding: 0% 3%;;
+    padding: 0% 3%;
+    width: screen;
 }
 
 h1 {
@@ -27,8 +28,16 @@ h1 {
     font-size: 30px;
 }
 
+h3 {
+    color:white;
+}
+
 a {
     color: white;
+}
+
+.Italic {
+    font-style: italic;
 }
 
 /* ----- Reset Style End ----- */
@@ -91,7 +100,7 @@ a {
 .home { /* Container Khusus Main Content Home */
     display:grid;
     height:91vh;
-    padding: 0px 150px;    
+    padding: 0px 13%;    
     padding-top: 8%;
 }
 
@@ -126,10 +135,10 @@ a {
     padding: 20px;
     border-radius: 20px;
     background-color: rgb(20, 130, 246);
-    color:white;
     max-width: 50%;
     cursor:pointer;
     box-shadow: 0 0 10px rgba(30, 144, 255, 0.8);
+    color:white;
 }
 
 .started button:hover {
@@ -247,8 +256,43 @@ a {
     background-color: #0f0f0f;
     padding: 10px;
     border-radius: 20px;
-    margin: 0 20%;
+    margin: 0 5%;
 
+}
+
+.Aexp {
+    display: grid;
+    gap: 30px;
+    background-color: #1b1b1b;
+    border-radius: 20px;
+    padding:25px;
+    margin: 50px 0px;
+}
+
+.Aexp h1 {
+    text-align: center;
+}
+
+.Aexp div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0f0f0f;
+    padding: 20px 50px;
+    border-radius: 20px;
+    margin: 0 5%;
+    gap: 5px;
+
+}
+
+.Aexp P {
+    text-align: justify;
+    padding-top: 7px;
+}
+
+.Aexp span {
+    font-weight: bold;
+    font-style: italic;
 }
 
 .Aportfolio  {
@@ -310,6 +354,10 @@ footer p {
 
 /* ----- Responsive Website Style ----- */
 @media (max-width: 767px) {
+    .container {
+        width: fit-content;
+    }
+    
     /* --- Navbar Responsive --- */
     .navbar {
         height: max-content;
@@ -377,6 +425,11 @@ footer p {
     .socialMedia div {
         padding: 0px;
         gap: 50px
+    }
+
+    /* --- About Responsive --- */
+    .Aprofil img {
+        width: 30%;
     }
 }
 

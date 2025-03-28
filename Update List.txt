@@ -1,3 +1,7 @@
+-------------------------------------
+----Rincian Update Per-Maret 2025----
+-------------------------------------
+
 21/03/2025
 Merubah Warna menu-hover, merubah footer
 
@@ -19,6 +23,10 @@ Footer diperbaiki dengan menghilangkan ''place-content:center'',//, penyesuaian 
 26/03/2025 pukul 22:15
 Membuat navbar burger untuk tampilan lebih responsive
 Membuat class baru : .nav-link, .burger ,//, membuat style css untuk class dan menu terkait ,//,  membuat file javascript: logic.js.
+
+28/03/2025 pukul 23:00
+Penambahan Section Profesional Journey dan Penyesuaian Responsive website
+Mengurangi ukuran semua gambar,//, Merubah Warna huruf pada seluruh body,//, menambahkan ''widht:sreen'' pada container dan ''width:fit-content'' pada responsive-nya,//, perubahan index.html: Menghilangkan <a> pada button dan memasukkan link langsung di button,/, Merubah Padding .home agar lebih responsive,//, Perubahan 2about.html : Memperbarui Subjudul pada setiap bagian pada halaman,/, Memperbarui ringkasan Profil,/, Merubah ukuran Foto saat layar kecil,/, Merubah margin pada ''.Askill div {}''  ,/, Menambahkan section Professional Journey dan CSS yang dibutuhkan,/, menambagkan style khusus untuk h3 dan class .italic,/, 
 
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
