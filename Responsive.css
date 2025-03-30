@@ -1,0 +1,170 @@
+
+/* ----- Responsive Website Style Max-780px----- */
+@media (max-width: 1060px) {
+    .started {
+        gap: 50px;
+    }
+
+    .started h1 {
+        font-size: 20px;
+    }
+
+    .started div {
+        width: 60%;
+        gap: 20px;
+    }
+
+    .started img {
+        width: 40%;
+    }
+}
+
+/* ----- Responsive Website Style Max-780px----- */
+@media (max-width: 780px) {
+    .container {
+        width: fit-content;
+    }
+    
+    /* --- Navbar Responsive --- */
+    .navbar {
+        height: 70px;
+        padding:20px 35px;
+    }
+    
+    .nav-link {
+        display: none; /* Sembunyikan menu nav-link asli */
+        flex-direction: column;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        background-color: #1b1b1b;
+        width: 200px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .nav-link a {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .burger {
+        display: flex; /* Munculkan icon burger */
+    }
+
+    /* Animasi burger berubah jadi "X" saat aktif */
+    .burger.active .line1 {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .burger.active .line2 {
+        opacity: 0;
+    }
+
+    .burger.active .line3 {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    .nav-link.show {
+        display: flex;
+    }
+
+    /* --- Home Responsive --- */
+    .home {
+        height: max-content;
+        padding: 0px;
+        padding-top: 100px;
+    }
+
+    .started {
+        gap: 16px;
+        padding: 16px 24px;
+        flex-direction: column-reverse;
+    }
+
+    .started div {
+        width:80%;
+        padding-top: 20px;
+    }
+
+    .started h1 {
+        font-size: 25px;
+    }
+
+    .socialMedia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+    .socialMedia div {
+        padding: 0px;
+        gap: 50px
+    }
+
+    /* --- About Responsive --- */
+    .Aprofil img {
+        width: 30%;
+    }
+
+    .Askill {
+        padding: 25px 15px;
+    }
+
+    .Aexp {
+        padding: 25px 15px;
+    }
+
+    .Aexp div {
+        padding: 20px 30px;
+    }
+
+    .Aport {
+        flex-direction: column;
+    }
+}
+
+/* ----- Responsive Website Style max-485px----- */
+@media (max-width: 485px) {
+    /*---Unique Responsive---*/
+    .Alert {
+        font-size: 20px;
+    }
+    /*---Footer Responsive---*/
+    footer p {
+        font-size: 13px;
+    }
+
+    /*---Home Responsive---*/
+    .started div {
+        width: 90%;
+        gap:15px;     
+    }
+
+    .started h1 {
+        font-size: 20px;
+    }
+
+    .started button {
+        padding: 15px;
+    }
+
+    .socialMedia div {
+        padding: 0px 10px;
+    }
+
+    /* --- About Responsive --- */
+    .Aprofil h2 {
+        font-size: 20px;
+    }
+
+    .Askill div{
+        margin:0px 5px;
+    }
+    
+    .Aexp div{
+        margin:0px 5px;
+        padding: 25px 15px;
+    }
+}

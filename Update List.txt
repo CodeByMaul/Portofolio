@@ -39,3 +39,7 @@ Tipe Perangkat	Ukuran (px)
 -->
 
 Belum diupload:
+Pemisahan antara css biasa dengan media query (responsive website) dan menambah styling
+merubah height .home dan footer,//, menambahkan section .main pada 2about.html,//,Membuat Responsive.css,//, 
+custom.css : menghilangkan gap pada .navbar,/, merubah padding-top pada class ''home'',/, mengurangi gap pada .socialMedia,/, merubah padding-top pada .Aprofil,/, menambah style untuk ''Askill p {}'',/, merubah manambah text-align:center pada ''.Alert'',''Aexp h3'',''Aexp h5'',//,
+Responsive.css : Merubah ukuran .started h1,/, menambah flex-direction:column untuk class .Aport,/, merubah padding untuk Askill & Aexp beserta bawahnya,/, menambah media max-width 1000px & 485px,//,
