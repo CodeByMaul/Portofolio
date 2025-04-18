@@ -38,8 +38,17 @@ Tipe Perangkat	Ukuran (px)
 🖥 Desktop Lebar	min-width: 1367px
 -->
 
-Belum diupload:
+30/03/2025 pukul 10:50
 Pemisahan antara css biasa dengan media query (responsive website) dan menambah styling
 merubah height .home dan footer,//, menambahkan section .main pada 2about.html,//,Membuat Responsive.css,//, 
 custom.css : menghilangkan gap pada .navbar,/, merubah padding-top pada class ''home'',/, mengurangi gap pada .socialMedia,/, merubah padding-top pada .Aprofil,/, menambah style untuk ''Askill p {}'',/, merubah manambah text-align:center pada ''.Alert'',''Aexp h3'',''Aexp h5'',//,
 Responsive.css : Merubah ukuran .started h1,/, menambah flex-direction:column untuk class .Aport,/, merubah padding untuk Askill & Aexp beserta bawahnya,/, menambah media max-width 1000px & 485px,//,
+
+18/04/2025 pukul 10:37
+Menambahkan Deskripsi Meta pada setiap halaman.
+email: maulana.satria.n03@gmail.com
+Membuat Aexp urut sesuai ukuran H1-H5 (tidak ada yang double), menambahkan class="H5" dan "H3" sebagai pengganti H5 dan H3 yang mengakibatkan score accesibility turun.
+menghapus style .Aexp span
+merubah style warna ".Aprofil a" agar lebih jelas warnanya
+
+Belum diupload:

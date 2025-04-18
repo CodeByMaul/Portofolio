@@ -40,6 +40,16 @@ a {
     font-style: italic;
 }
 
+.H3 {
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.H5 {
+    font-size: .83em;
+    font-weight: bold;
+}
+
 /* ----- Reset Style End ----- */
 
 /* ----- Navigation Bar Start ----- */
@@ -222,7 +232,7 @@ a {
 .Aprofil a {
     padding: 10px;
     border-radius: 20px;
-    background-color: rgb(20, 130, 246);
+    background-color: rgb(20, 110, 246);
     font-size: 13px;
 }
 
@@ -292,17 +302,11 @@ a {
     border-radius: 20px;
     margin: 0 5%;
     gap: 5px;
-
 }
 
 .Aexp P {
     text-align: justify;
     padding-top: 7px;
-}
-
-.Aexp span {
-    font-weight: bold;
-    font-style: italic;
 }
 
 .Aportfolio  {
