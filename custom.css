@@ -142,10 +142,10 @@ a {
 .started button {
     padding: 20px;
     border-radius: 20px;
-    background-color: rgb(20, 130, 246);
+    background-color: rgb(20, 110, 246);
     max-width: 50%;
     cursor:pointer;
-    box-shadow: 0 0 10px rgba(30, 144, 255, 0.8);
+    box-shadow: 0 0 10px rgba(30, 125, 255, 0.8);
     color:white;
 }
 
