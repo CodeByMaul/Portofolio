@@ -55,6 +55,15 @@ merubah style warna ".Aprofil a" agar lebih jelas warnanya
 merubah style warna ".started button" agar lebih jelas warnanya
 
 20/04/2025 pukul 07:30
-Mengganti Nama Foto dan altnya dengan Maulana-Satria-Nugraha.
+Mengganti Nama Foto dan altnya dengan Foto - Maulana-Satria-Nugraha.
+
+21/04/2025 pukul 17:38
+Merubah kembali alt dari foto profil menjadi Photo - Maulana Satria Nugraha
+menambahkan rel="noopener" pada hiperlink media sosial pada index.html.
+Merubah semua tittle website
+Menambahkan robots.txt dan sitemap.xml untuk meningkatkan SEO 
+Merubah 3galeri.html menjadi 3gallery.html dan 4portofolio.html menjadi 4portfolio.html
+Mengupload Folder /Gallery berisi foto-foto kerja.
+Mengisi halaman Galery (sementara di hide dulu)
 
 Belum diupload:
