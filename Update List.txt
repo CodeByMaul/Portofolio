@@ -79,4 +79,7 @@ edit style class="alert"
 27/04/2025 pukul 20:10
 mengeluarkan google font dari file ".css" dan menaruhnya langsung di semua ".html" serta menambahkan pre-connect
 
+27/04/2025 pukul 21:50
+Edit url google font.
+
 Belum diupload:
