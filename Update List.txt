@@ -44,6 +44,10 @@ merubah height .home dan footer,//, menambahkan section .main pada 2about.html,/
 custom.css : menghilangkan gap pada .navbar,/, merubah padding-top pada class ''home'',/, mengurangi gap pada .socialMedia,/, merubah padding-top pada .Aprofil,/, menambah style untuk ''Askill p {}'',/, merubah manambah text-align:center pada ''.Alert'',''Aexp h3'',''Aexp h5'',//,
 Responsive.css : Merubah ukuran .started h1,/, menambah flex-direction:column untuk class .Aport,/, merubah padding untuk Askill & Aexp beserta bawahnya,/, menambah media max-width 1000px & 485px,//,
 
+-------------------------------------
+----Rincian Update Per-April 2025----
+-------------------------------------
+
 18/04/2025 pukul 10:37
 Menambahkan Deskripsi Meta pada setiap halaman.
 email: maulana.satria.n03@gmail.com
@@ -81,5 +85,8 @@ mengeluarkan google font dari file ".css" dan menaruhnya langsung di semua ".htm
 
 27/04/2025 pukul 21:50
 Edit url google font.
+
+27/04/2025 pukul 22:51
+Pemasangan Google Analitics
 
 Belum diupload:
