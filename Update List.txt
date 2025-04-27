@@ -66,4 +66,14 @@ Merubah 3galeri.html menjadi 3gallery.html dan 4portofolio.html menjadi 4portfol
 Mengupload Folder /Gallery berisi foto-foto kerja.
 Mengisi halaman Galery (sementara di hide dulu)
 
+27/04/2025 pukul 19:30
+Membungkus Album untuk setiap tempat kerja dalam <article>.
+Memasangkan Foto dan keterangannya masing-masing
+menambahkan style pada 3gallery.html
+mengganti setiap Nama Folder pada /gallery.
+menambah class="inpage" khusus judul
+membuat folder portfolio yang berisi file html detail dari masing-masing project
+menambahkan meta social
+edit style class="alert"
+
 Belum diupload:

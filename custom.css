@@ -50,6 +50,12 @@ a {
     font-weight: bold;
 }
 
+/*Mencenterkan Judul Utama dan keterangannya*/
+.InPage {
+    text-align: center;
+    margin-top: 10px;
+}
+
 /* ----- Reset Style End ----- */
 
 /* ----- Navigation Bar Start ----- */
@@ -63,6 +69,7 @@ a {
     border-radius: 0px 0px 20px 20px;
     position: fixed;
     width: 94%;
+    z-index: 1000;
 }
 
 .navJudul {
@@ -72,6 +79,7 @@ a {
 .menu-navbar {
     text-decoration: none;
     padding: 17px;
+    color:#b8b8b8;
 }
 
 .menu-navbar:hover {
@@ -341,6 +349,103 @@ a {
 
 /* ----- Halaman About End ----- */
 
+/* ----- Halaman Gallery Start ----- */
+.main article {
+    display: grid;
+    text-align: center;
+    background-color: #1b1b1b;
+    margin:40px 20px 0px 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.Album {
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.Album div {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.Album img {
+    display: block;
+    max-height: 250px;
+}
+
+.Album p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.Album div:hover img{
+    transform: scale(1.05);
+}
+
+.Album div:hover p {
+    opacity: 1;
+}
+
+/* ----- Halaman Gallery End ----- */
+
+/* ----- Halaman Portfolio Start ----- */
+.Project {
+    display: flex;
+    margin:30px 20px 20px 20px;
+    justify-content: space-around
+}
+
+.Project a {
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1b1b;
+    width: 25vw;
+    padding: 30px;
+    justify-content: space-between;
+    border-radius: 10%;
+}
+
+.Project img {
+    align-self: center;
+    color:#b8b8b8;
+}
+
+.Project h2 {
+    font-size: 1.17em;
+    margin: 10px 0px;
+}
+
+.Project p {
+    text-align: justify;
+    color:#b8b8b8;
+}
+
+.Project span {
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 80%;
+    color:#b8b8b8;
+}
+
+.Project a:hover {
+    transform: scale(1.05);
+    background-color: navy;
+}
+
+/* ----- Halaman Portfolio End ----- */
+
 /* ----- Footer Start ----- */
 footer {
     display:flex;    
@@ -362,7 +467,15 @@ footer p {
 
 /* ----- Unique Start ----- */
 .Alert {
-    padding: 34vh 0vh;
+    display: flex;
+    flex-direction: column;
+    padding: 31vh 0vh;
     text-align: center;
+    gap: 2vh;
+}
+
+.Alert a:hover {
+    font-weight: bold;
+    color: yellow;
 }
 /* ----- Unique End ----- */
