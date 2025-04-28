@@ -28,16 +28,6 @@ Membuat class baru : .nav-link, .burger ,//, membuat style css untuk class dan m
 Penambahan Section Profesional Journey dan Penyesuaian Responsive website
 Mengurangi ukuran semua gambar,//, Merubah Warna huruf pada seluruh body,//, menambahkan ''widht:sreen'' pada container dan ''width:fit-content'' pada responsive-nya,//, perubahan index.html: Menghilangkan <a> pada button dan memasukkan link langsung di button,/, Merubah Padding .home agar lebih responsive,//, Perubahan 2about.html : Memperbarui Subjudul pada setiap bagian pada halaman,/, Memperbarui ringkasan Profil,/, Merubah ukuran Foto saat layar kecil,/, Merubah margin pada ''.Askill div {}''  ,/, Menambahkan section Professional Journey dan CSS yang dibutuhkan,/, menambagkan style khusus untuk h3 dan class .italic,/, 
 
-PR untuk selanjutnya:
-<!-- PR Membuat Media Querry:
-Tipe Perangkat	Ukuran (px)
-📱 Mobile Kecil	max-width: 480px
-📱 Mobile Sedang	max-width: 768px
-📱 Tablet	max-width: 1024px
-💻 Laptop	max-width: 1366px
-🖥 Desktop Lebar	min-width: 1367px
--->
-
 30/03/2025 pukul 10:50
 Pemisahan antara css biasa dengan media query (responsive website) dan menambah styling
 merubah height .home dan footer,//, menambahkan section .main pada 2about.html,//,Membuat Responsive.css,//, 
@@ -92,4 +82,24 @@ Pemasangan Google Analitics
 28/04/2025 pukul 13:00
 Menghidden Gallery yang masih kosong
 Memperbaiki margin class=inpage
+
+28/04/2025 pukul 22:45
+Merubah style class=inpage dan penggunaannya di .html (sekarang memakai div)
+merubah style class=project
+memberikan class=Button pada "Aprofil a" dan menggunakannya pada Detail project
+memberikan glow effect pada navbar dan "Project a" 
+melengkapi konten Detail-Project
+menambah halaman Draft Project Detail untuk mempermudah pembuatan list project baru
+update robots.txt
+
+PR untuk selanjutnya:
+<!-- PR Membuat Media Querry:
+Tipe Perangkat	Ukuran (px)
+📱 Mobile Kecil	max-width: 480px
+📱 Mobile Sedang	max-width: 768px
+📱 Tablet	max-width: 1024px
+💻 Laptop	max-width: 1366px
+🖥 Desktop Lebar	min-width: 1367px
+-->
+
 Belum diupload:

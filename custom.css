@@ -26,6 +26,10 @@ h1 {
     font-size: 30px;
 }
 
+h2 {
+    color:white;
+}
+
 h3 {
     color:white;
 }
@@ -50,9 +54,11 @@ a {
 
 /*Mencenterkan Judul Utama dan keterangannya*/
 .InPage {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin: 50px 0px 20px 0px;
+    gap: 10px;
 }
 
 /* ----- Reset Style End ----- */
@@ -69,6 +75,8 @@ a {
     position: fixed;
     width: 94%;
     z-index: 1000;
+    box-shadow: 0 0 3px rgba(184, 184, 184, 0.9), 
+                0 0 11px rgba(184, 184, 184, 0.6);
 }
 
 .navJudul {
@@ -236,20 +244,22 @@ a {
     line-height: 1.5;
 }
 
-.Aprofil a {
+.Button {
     padding: 10px;
     border-radius: 20px;
     background-color: rgb(20, 110, 246);
     font-size: 13px;
+    width: fit-content;
+    text-align: center;
 }
 
-.Aprofil a:hover {
-    background-color: rgb(20, 90, 246);
+.Button:hover {
     font-weight: bold;
+    background-color: rgb(20, 90, 246);
     box-shadow: 0 0 5px rgba(30, 144, 255, 1), 
                 0 0 15px rgba(30, 144, 255, 0.8);
-    transform: scale(1.05); /* Membuat tombol sedikit membesar */
-    transition:0.3s ease-in-out;
+    transform: scale(1.03); /* Membuat tombol sedikit membesar */
+    transition:0.2s ease-in-out;
 }
 
 .Askill {
@@ -401,7 +411,7 @@ a {
 /* ----- Halaman Portfolio Start ----- */
 .Project {
     display: flex;
-    margin:30px 20px 20px 20px;
+    margin:20px 20px 30px 20px;
     justify-content: space-around
 }
 
@@ -413,6 +423,15 @@ a {
     padding: 30px;
     justify-content: space-between;
     border-radius: 10%;
+    box-shadow: 0 0 5px rgba(184, 184, 184, 0.7), 
+                0 0 15px rgba(184, 184, 184, 0.5);
+}
+
+.Project a:hover {
+    transform: scale(1.05);
+    background-color: navy;
+    box-shadow: 0 0 5px rgba(184, 184, 184, 1), 
+                0 0 15px rgba(184, 184, 184, 0.8);
 }
 
 .Project img {
@@ -438,12 +457,76 @@ a {
     color:#b8b8b8;
 }
 
-.Project a:hover {
-    transform: scale(1.05);
-    background-color: navy;
+/* ----- Halaman Portfolio End ----- */
+
+/* ----- Halaman Detail Project Start ----- */
+
+.Detail-Project {
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1b1b;
+    margin:25px 20px 25px 20px;
+    padding: 50px;
+    border-radius: 20px;
+    gap: 40px;
+    text-align: justify;
 }
 
-/* ----- Halaman Portfolio End ----- */
+.DP-Tittle {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.DP-Gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+    margin-top: 24px;
+}
+
+.DP-Show {
+    display: grid;
+    gap:12px;
+    width:100%;
+    height:auto;
+}
+
+.DP-Show iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.DP-Show a {
+    font-style: italic;
+    text-decoration: underline;
+    color:#b8b8b8;
+    width: fit-content;
+}
+
+.DP-Show a:hover {
+    color: yellow;
+}
+
+.DP-Tools {
+    display: grid;
+    gap:12px;
+}
+
+.DP-Hasil {
+    display: grid;
+    gap:12px;
+}
+
+.Button-box {
+    display: flex;
+    width: 100%;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+/* ----- Halaman Detail Project End ----- */
 
 /* ----- Footer Start ----- */
 footer {
