@@ -92,6 +92,11 @@ melengkapi konten Detail-Project
 menambah halaman Draft Project Detail untuk mempermudah pembuatan list project baru
 update robots.txt
 
+28/04/2025 pukul 22:58
+Perbaikan robots.txt
+perbaikan ukuran DP-Show iframe {}
+
+
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
 Tipe Perangkat	Ukuran (px)
