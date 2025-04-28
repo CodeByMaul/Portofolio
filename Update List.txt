@@ -89,4 +89,7 @@ Edit url google font.
 27/04/2025 pukul 22:51
 Pemasangan Google Analitics
 
+28/04/2025 pukul 13:00
+Menghidden Gallery yang masih kosong
+Memperbaiki margin class=inpage
 Belum diupload:
