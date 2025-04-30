@@ -61,6 +61,11 @@ a {
     gap: 10px;
 }
 
+/* Under Development */
+#coming-soon {
+    display: none;
+}
+
 /* ----- Reset Style End ----- */
 
 /* ----- Navigation Bar Start ----- */
@@ -131,6 +136,7 @@ a {
 .main { /* Container Khusus Main Content Semua Halaman Selain Home */
     display:grid;   
     padding-top: 8%;
+    min-height: 92vh;
 }
 /* ----- Container Main Content End ----- */
 
@@ -412,7 +418,7 @@ a {
 .Project {
     display: flex;
     margin:20px 20px 30px 20px;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .Project a {
@@ -421,6 +427,7 @@ a {
     background-color: #1b1b1b;
     width: 25vw;
     padding: 30px;
+    gap: 10px;
     justify-content: space-between;
     border-radius: 10%;
     box-shadow: 0 0 5px rgba(184, 184, 184, 0.7), 
@@ -437,11 +444,13 @@ a {
 .Project img {
     align-self: center;
     color:#b8b8b8;
+    border-radius: 10px;
+    outline: 3px solid white;
+    margin-bottom: 10px;
 }
 
 .Project h2 {
     font-size: 1.17em;
-    margin: 10px 0px;
 }
 
 .Project p {
@@ -450,7 +459,6 @@ a {
 }
 
 .Project span {
-    margin-top: 10px;
     text-align: center;
     font-style: italic;
     font-size: 80%;
@@ -465,7 +473,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #1b1b1b;
-    margin:25px 20px 25px 20px;
+    margin:25px 30px 25px 30px;
     padding: 50px;
     border-radius: 20px;
     gap: 40px;
@@ -475,7 +483,7 @@ a {
 .DP-Tittle {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 5px;
 }
 
 .DP-Gallery {
@@ -485,38 +493,33 @@ a {
     margin-top: 24px;
 }
 
-.DP-Show {
+.DP-Content {
     display: grid;
     gap:12px;
     width:100%;
     height:auto;
 }
 
-.DP-Show iframe {
+.DP-Content iframe {
     width: 100%;
     height: 350px;
     border-radius: 10px;
 }
 
-.DP-Show a {
+.DP-Content a {
     font-style: italic;
     text-decoration: underline;
     color:#b8b8b8;
     width: fit-content;
 }
 
-.DP-Show a:hover {
+.DP-Content a:hover {
     color: yellow;
 }
 
-.DP-Tools {
-    display: grid;
-    gap:12px;
-}
-
-.DP-Hasil {
-    display: grid;
-    gap:12px;
+.DP-Content ul {
+    list-style-position: inside;
+    padding-left: 10px;
 }
 
 .Button-box {

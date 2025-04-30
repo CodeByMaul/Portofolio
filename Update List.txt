@@ -96,6 +96,19 @@ update robots.txt
 Perbaikan robots.txt
 perbaikan ukuran DP-Show iframe {}
 
+30/04/2025 pukul 23:55
+Memberikan min-height pada pada class main
+menambahkan id="coming-soon" untuk konten yang masih dalam tahap development, untuk di hide.
+menghapus Dampak/Value pada -Draft-Detail-Project.html
+merubah margin Detail-Project
+Menggabung Dua class (DP-Show ++ DP-Tools ++ DP-Hasil) menjadi DP-Content
+mengurangi gap pada DP-Tittle
+Memisahkan Deskripsi Proyek dari DP-Tittle dan memasukannya ke DP-Content tersendiri
+menambah beberapa container DP-Content di -Draft-Detail-Project.html
+menambal style DP-Content ul, yang mengatur list fitur
+merubah logo-linkedin.webp supaya modelnya mirip dengan lainnya.
+Menambah foto untuk Portofolio website sekolah dan mengatur stylenya - akan dipakai dilainnya juga
+penambahan isi Website-Sekolah-DCD-Academy.html.
 
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
