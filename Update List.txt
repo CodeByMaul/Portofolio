@@ -120,7 +120,12 @@ Tipe Perangkat	Ukuran (px)
 🖥 Desktop Lebar	min-width: 1367px
 -->
 
-Belum diupload:
+02-05-2025 pukul 05:49
 Merubah Responsive Website halaman portfolio, menambah responsive website 485px untuk .socialMedia div
 width dari project img dirubah jadi 100% supaya responsive
 menambah url di sitemap.xml
+
+02-05-2025 pukul 05:53
+menghide Portfolio pada 2about.html menggunakan id="coming-soon"
+
+Belum diupload:
