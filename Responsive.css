@@ -17,6 +17,15 @@
     .started img {
         width: 40%;
     }
+
+    /* --- Portfolio Responsive --- */
+    .Project {
+        justify-content: space-between;
+    }
+
+    .Project a {
+        width: 28vw;
+    }
 }
 
 /* ----- Responsive Website Style Max-780px----- */
@@ -123,6 +132,18 @@
     .Aport {
         flex-direction: column;
     }
+
+    /*--- Portfolio Responsive ---*/
+    .Project {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .Project a {
+        width: 300px;
+    }
 }
 
 /* ----- Responsive Website Style max-485px----- */
@@ -151,7 +172,7 @@
     }
 
     .socialMedia div {
-        padding: 0px 10px;
+        gap:10px;
     }
 
     /* --- About Responsive --- */
@@ -166,5 +187,19 @@
     .Aexp div{
         margin:0px 5px;
         padding: 25px 15px;
+    }
+
+    /*--- Portfolio Responsive ---*/
+    .Project a {
+        width: 250px;
+    }
+
+    /*--- Detail Project Responsive ---*/
+    .Detail-Project {
+        padding: 30px;
+    }
+
+    .DP-Content ul {
+        list-style-position:outside;
     }
 }

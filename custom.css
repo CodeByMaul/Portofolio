@@ -447,6 +447,7 @@ a {
     border-radius: 10px;
     outline: 3px solid white;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .Project h2 {

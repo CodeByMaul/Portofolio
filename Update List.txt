@@ -121,3 +121,6 @@ Tipe Perangkat	Ukuran (px)
 -->
 
 Belum diupload:
+Merubah Responsive Website halaman portfolio, menambah responsive website 485px untuk .socialMedia div
+width dari project img dirubah jadi 100% supaya responsive
+menambah url di sitemap.xml
