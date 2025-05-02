@@ -128,4 +128,9 @@ menambah url di sitemap.xml
 02-05-2025 pukul 05:53
 menghide Portfolio pada 2about.html menggunakan id="coming-soon"
 
+02-05-2025 pukul 23:05
+Melengkapi Konten Halaman Excel Akuntansi Otomatis dan membuka Hidenya di 4portfolio.html.
+Membuat Folder Shared yang berisi kumpulan draft yang boleh dibagikan.
+Menambahkan Foto Priview M dan L untuk Aplikasi Akuntansi.
+
 Belum diupload:

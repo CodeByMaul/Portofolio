@@ -29,16 +29,15 @@
 </head>
 <body>
     <section class="container">
-        <!-- Navigation Bar Start -->
-        <header class="navbar">
+      <!-- Navigation Bar Start -->
+      <header class="navbar">
         <a href="/index.html" class="navJudul">MyPortfolio</a>
         <!-- Navigation Bar Tampilan Dekstop -->
         <nav class="nav-link">
           <a href="/index.html" class="menu-navbar"><span>Home</span></a>
           <a href="/2about.html" class="menu-navbar"><span>About</span></a>
           <a href="/3gallery.html" class="menu-navbar"><span>Galery</span></a>
-          <a href="/4portfolio.html" class="menu-navbar active"><span>Portofolio</span></a
-          >
+          <a href="/4portfolio.html" class="menu-navbar active"><span>Portofolio</span></a>
         </nav>
         <!-- Navigation Bar Tampilan Dekstop -->
         <div class="burger" onclick="toggleMenu()">
@@ -46,23 +45,104 @@
           <div class="line2" ></div>
           <div class="line3" ></div>
         </div>
-        </header>
-        <!-- Navigation Bar End -->
+      </header>
+      <!-- Navigation Bar End -->
 
-        <!-- Content Start -->
-        <section class="main">
-            <div class="Alert">
-                <h1>Some Work In Progress, Please Come Back Later!</h1>
-                <a href="/4portfolio.html">click untuk kembali</a>
-            </div>            
+      <!-- Content Start -->
+      <section class="main"> 
+        
+        <div class="InPage">
+          <h1>Detail Proyek</h1>
+          <p>Dokumentasi dan informasi lengkap tentang proyek yang telah saya kerjakan.</p>
+        </div>
+      
+        <!-- Project Detail Section -->
+        <section class="Detail-Project">
+          <div class="DP-Tittle">
+            <h2>Pembuatan Aplikasi Akuntansi menggunakan Microsoft Excel</h2>
+            <p>Tahun 2021</p>
+          </div>
+
+          <div class="DP-Content">
+            <h3>Deskripsi Proyek</h3>
+            <p>
+              Proyek ini saya kerjakan bertujuan untuk mempermudah pekerjaan saya dalam 
+              membuat laporan keuangan. Dalam proyek ini saya menggabungkan beberapa rumus 
+              untuk membuat draft Ms.Excel yang akan membuat laporan keuangan otomatis.
+            </p>
+          </div>
+          
+          <!-- Story of Project Section -->
+          <div class="DP-Content">
+            <h3>Pengalaman saat membuatnya</h3>
+            <p>
+              Awal mula saya mengerjakan proyek ini dikarenakan ditempat kerja saya belum 
+              ada aplikasi akuntansi, sedangkan untuk membeli sebuah aplikasi memerlukan
+              biaya yang lumayan tinggi dan memang sebenarnya masih belum terlalu dibutuhkan. 
+              Maka dari itu saya berinisiatif untuk membuat sebuah draft Ms.Excel yang akan otomatis 
+              membuat laporan Akuntansi. Banyak Sekali <i>trial and error</i> pada saat membuat draft 
+              ini, saya juga banyak mencari info di internet ataupun tutorial di youtube untuk menyempurnakan
+              aplikasi akuntansi ini. Walaupun masih ada beberapa kekurangan, namun Aplikasi Akuntansi 
+              otomatis Ms.Excel ini banyak membantu saya dalam mengerjakan tugas saya sehari-hari.
+            </p>
+          </div>
+
+          <!-- Image Gallery -->
+          <div id="coming-soon" class="DP-Gallery">
+            <img src="#" alt="Foto 1"/>
+            <img src="#" alt="Foto 2"/>
+            <img src="#" alt="Foto 3"/>
+            <img src="#" alt="Foto 4"/>
+          </div>
+
+          <!-- Demo (video / Website / Dummies Data) (Optional) -->
+          <div id="coming-soon" class="DP-Content">
+            <h3>Video Demo</h4>
+            <iframe src="#" title="Video demo" frameborder="0" allowfullscreen></iframe>
+          </div>
+          
+          <div class="DP-Content">
+            <h3>Link download draft Excel</h3>
+            <p>Jika anda tertarik melihat draft hasil project saya, atau anda membutuhkannya 
+              untuk kebutuhan di Perusahaan/Instansi/Usaha anda, silahkan mendownloadnya secara 
+              gratis dengan meng-click tombol dibawah ini:
+            </p>
+            <a href="/shared/Aplikasi-Akuntansi-Excel.xlsx" download="Aplikasi Akuntansi Sederhana By Maulana-Satria-Nugraha.xlsx">
+              Download Draftnya Disini
+            </a>
+          </div>
+            
+          <!-- Rincian Fitur -->
+          <div class="DP-Content">
+            <h3>Fitur utama</h4>
+            <ul>
+              <li>Halaman Home untuk menulis Data perusahan</li>
+              <li>Halaman Chart of Account sekaligus input saldo awal</li>
+              <li>Jurnal Umum</li>
+              <li>Buku besar otomatis</li>
+              <li>Laporan Rugi/Laba Otomatis</li>
+              <li>Neraca Otomatis</li>
+            </ul>
+          </div>
+
+          <!-- Tools & Teknologi -->
+          <div class="DP-Content">
+            <h3>Tools & Teknologi</h4>
+            <p>Microsoft Excel</p>
+          </div>
+
+          <div class="Button-box" >
+            <a href="/4portfolio.html" class="Button">Kembali ke Portofolio</a>
+          </div>
         </section>
-        <!-- Content End -->
+      </section>
+      <!-- Content End -->
 
-        <!-- Footer Start -->
-        <footer>
-            <p>©2025 Maulana Satria Nugraha. All Rights Reserved.</p>
-        </footer>
-        <!-- Footer End -->
+      <!-- Footer Start -->
+      <footer>
+          <p>©2025 Maulana Satria Nugraha. All Rights Reserved.</p>
+      </footer>
+      <!-- Footer End -->
     </section>
     <script src="/logic.js"></script>
 </body>
