@@ -110,16 +110,6 @@ merubah logo-linkedin.webp supaya modelnya mirip dengan lainnya.
 Menambah foto untuk Portofolio website sekolah dan mengatur stylenya - akan dipakai dilainnya juga
 penambahan isi Website-Sekolah-DCD-Academy.html.
 
-PR untuk selanjutnya:
-<!-- PR Membuat Media Querry:
-Tipe Perangkat	Ukuran (px)
-📱 Mobile Kecil	max-width: 480px
-📱 Mobile Sedang	max-width: 768px
-📱 Tablet	max-width: 1024px
-💻 Laptop	max-width: 1366px
-🖥 Desktop Lebar	min-width: 1367px
--->
-
 02-05-2025 pukul 05:49
 Merubah Responsive Website halaman portfolio, menambah responsive website 485px untuk .socialMedia div
 width dari project img dirubah jadi 100% supaya responsive
@@ -132,5 +122,21 @@ menghide Portfolio pada 2about.html menggunakan id="coming-soon"
 Melengkapi Konten Halaman Excel Akuntansi Otomatis dan membuka Hidenya di 4portfolio.html.
 Membuat Folder Shared yang berisi kumpulan draft yang boleh dibagikan.
 Menambahkan Foto Priview M dan L untuk Aplikasi Akuntansi.
+
+03-05-2025 pukul 19:45
+merubah link downloadnya menggunakan javascript/blob, supaya nama file mudah dirubah,
+karena diganti Js/Blob, maka <a> diganti menjadi <span> supaya mudah, lalu diganti style nya.
+mengupdate -Draft-Detail-Project.html dibagian download filenya.
+Melengkapi Konten Halaman Automasi Buku Kepegawaian dan membuka Hidenya di 4portfolio.html.
+
+PR untuk selanjutnya:
+<!-- PR Membuat Media Querry:
+Tipe Perangkat	Ukuran (px)
+📱 Mobile Kecil	max-width: 480px
+📱 Mobile Sedang	max-width: 768px
+📱 Tablet	max-width: 1024px
+💻 Laptop	max-width: 1366px
+🖥 Desktop Lebar	min-width: 1367px
+-->
 
 Belum diupload:

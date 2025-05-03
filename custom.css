@@ -507,14 +507,15 @@ a {
     border-radius: 10px;
 }
 
-.DP-Content a {
+.DP-Content span {
     font-style: italic;
     text-decoration: underline;
     color:#b8b8b8;
     width: fit-content;
+    cursor: pointer;
 }
 
-.DP-Content a:hover {
+.DP-Content span:hover {
     color: yellow;
 }
 
