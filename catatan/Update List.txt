@@ -129,6 +129,9 @@ karena diganti Js/Blob, maka <a> diganti menjadi <span> supaya mudah, lalu digan
 mengupdate -Draft-Detail-Project.html dibagian download filenya.
 Melengkapi Konten Halaman Automasi Buku Kepegawaian dan membuka Hidenya di 4portfolio.html.
 
+04-05-2025 23:35
+merubah nama-nama html agar lebih SEO friendly
+
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
 Tipe Perangkat	Ukuran (px)
