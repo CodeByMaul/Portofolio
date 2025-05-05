@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /portfolio/-Draft-Detail-Project.html
 
-Sitemap: https://maulana-sn-portfolio.vercel.app/sitemap.xml
+Sitemap: https://maulana-satria.pages.dev/sitemap.xml

@@ -132,6 +132,9 @@ Melengkapi Konten Halaman Automasi Buku Kepegawaian dan membuka Hidenya di 4port
 04-05-2025 23:35
 merubah nama-nama html agar lebih SEO friendly
 
+05-05-2025 23:45
+pindah halaman website, jadi ganti robots.txt dan sitemap.html
+
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
 Tipe Perangkat	Ukuran (px)
