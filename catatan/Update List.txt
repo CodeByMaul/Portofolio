@@ -138,6 +138,9 @@ pindah halaman website, jadi ganti robots.txt dan sitemap.html
 07-05-2025 10:20
 Merubah title, deskripsi Meta, dan OG
 
+07-05-2025 12:30
+Update G-tag, pindah tag
+
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
 Tipe Perangkat	Ukuran (px)
