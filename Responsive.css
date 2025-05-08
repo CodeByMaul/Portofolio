@@ -134,6 +134,24 @@
     }
 
     /*--- Portfolio Responsive ---*/
+    .Album { /*--- sementara ---*/
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+        gap: 20px;
+    }
+
+    .Album div {
+        display:flex;
+        justify-content: center;
+    }
+
+    .Album img {
+        max-height: auto;
+        max-width:60vw;
+    }
+
+    /*--- Portfolio Responsive ---*/
     .Project {
         flex-direction: column;
         justify-content: center;

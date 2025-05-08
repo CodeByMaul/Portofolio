@@ -141,6 +141,9 @@ Merubah title, deskripsi Meta, dan OG
 07-05-2025 12:30 - 14:00
 Update G-tag, pindah tag & Menambah verifikasi html dan tag
 
+08-05-2025 07:35
+update Responsive website untuk gallery.html
+
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
 Tipe Perangkat	Ukuran (px)
@@ -152,6 +155,3 @@ Tipe Perangkat	Ukuran (px)
 -->
 
 Belum diupload:
-
-commit 799dc1aabca375a81239fc994ebffd75e739f529
-commit 6812f271a5d93d068e5d1d4db0f21816478e0b8f
