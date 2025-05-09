@@ -144,6 +144,9 @@ Update G-tag, pindah tag & Menambah verifikasi html dan tag
 08-05-2025 07:35
 update Responsive website untuk gallery.html
 
+09-05-2025 09:57
+Update <!-- Canonical URL --> untuk pindah website
+
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
 Tipe Perangkat	Ukuran (px)
