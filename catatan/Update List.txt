@@ -38,18 +38,23 @@ Responsive.css : Merubah ukuran .started h1,/, menambah flex-direction:column un
 ----Rincian Update Per-April 2025----
 -------------------------------------
 
-18/04/2025 pukul 10:37
+-------------------------------------
+18/04/2025 
+
+pukul 10:37
 Menambahkan Deskripsi Meta pada setiap halaman.
 email: maulana.satria.n03@gmail.com
 Membuat Aexp urut sesuai ukuran H1-H5 (tidak ada yang double), menambahkan class="H5" dan "H3" sebagai pengganti H5 dan H3 yang mengakibatkan score accesibility turun.
 menghapus style .Aexp span
 merubah style warna ".Aprofil a" agar lebih jelas warnanya
 
-18/04/2025 pukul 10:58
+pukul 10:58
 merubah style warna ".started button" agar lebih jelas warnanya
+-------------------------------------
 
 20/04/2025 pukul 07:30
 Mengganti Nama Foto dan altnya dengan Foto - Maulana-Satria-Nugraha.
+-------------------------------------
 
 21/04/2025 pukul 17:38
 Merubah kembali alt dari foto profil menjadi Photo - Maulana Satria Nugraha
@@ -59,8 +64,11 @@ Menambahkan robots.txt dan sitemap.xml untuk meningkatkan SEO
 Merubah 3galeri.html menjadi 3gallery.html dan 4portofolio.html menjadi 4portfolio.html
 Mengupload Folder /Gallery berisi foto-foto kerja.
 Mengisi halaman Galery (sementara di hide dulu)
+-------------------------------------
 
-27/04/2025 pukul 19:30
+27/04/2025 
+
+pukul 19:30
 Membungkus Album untuk setiap tempat kerja dalam <article>.
 Memasangkan Foto dan keterangannya masing-masing
 menambahkan style pada 3gallery.html
@@ -70,20 +78,23 @@ membuat folder portfolio yang berisi file html detail dari masing-masing project
 menambahkan meta social
 edit style class="alert"
 
-27/04/2025 pukul 20:10
+pukul 20:10
 mengeluarkan google font dari file ".css" dan menaruhnya langsung di semua ".html" serta menambahkan pre-connect
 
-27/04/2025 pukul 21:50
+pukul 21:50
 Edit url google font.
 
-27/04/2025 pukul 22:51
+pukul 22:51
 Pemasangan Google Analitics
+-------------------------------------
 
-28/04/2025 pukul 13:00
+28/04/2025 
+
+pukul 13:00
 Menghidden Gallery yang masih kosong
 Memperbaiki margin class=inpage
 
-28/04/2025 pukul 22:45
+pukul 22:45
 Merubah style class=inpage dan penggunaannya di .html (sekarang memakai div)
 merubah style class=project
 memberikan class=Button pada "Aprofil a" dan menggunakannya pada Detail project
@@ -92,9 +103,10 @@ melengkapi konten Detail-Project
 menambah halaman Draft Project Detail untuk mempermudah pembuatan list project baru
 update robots.txt
 
-28/04/2025 pukul 22:58
+pukul 22:58
 Perbaikan robots.txt
 perbaikan ukuran DP-Show iframe {}
+-------------------------------------
 
 30/04/2025 pukul 23:55
 Memberikan min-height pada pada class main
@@ -109,37 +121,47 @@ menambal style DP-Content ul, yang mengatur list fitur
 merubah logo-linkedin.webp supaya modelnya mirip dengan lainnya.
 Menambah foto untuk Portofolio website sekolah dan mengatur stylenya - akan dipakai dilainnya juga
 penambahan isi Website-Sekolah-DCD-Academy.html.
+-------------------------------------
 
-02-05-2025 pukul 05:49
+02-05-2025 
+
+pukul 05:49
 Merubah Responsive Website halaman portfolio, menambah responsive website 485px untuk .socialMedia div
 width dari project img dirubah jadi 100% supaya responsive
 menambah url di sitemap.xml
 
-02-05-2025 pukul 05:53
+pukul 05:53
 menghide Portfolio pada 2about.html menggunakan id="coming-soon"
 
-02-05-2025 pukul 23:05
+pukul 23:05
 Melengkapi Konten Halaman Excel Akuntansi Otomatis dan membuka Hidenya di 4portfolio.html.
 Membuat Folder Shared yang berisi kumpulan draft yang boleh dibagikan.
 Menambahkan Foto Priview M dan L untuk Aplikasi Akuntansi.
+-------------------------------------
 
 03-05-2025 pukul 19:45
 merubah link downloadnya menggunakan javascript/blob, supaya nama file mudah dirubah,
 karena diganti Js/Blob, maka <a> diganti menjadi <span> supaya mudah, lalu diganti style nya.
 mengupdate -Draft-Detail-Project.html dibagian download filenya.
 Melengkapi Konten Halaman Automasi Buku Kepegawaian dan membuka Hidenya di 4portfolio.html.
+-------------------------------------
 
 04-05-2025 23:35
 merubah nama-nama html agar lebih SEO friendly
+-------------------------------------
 
 05-05-2025 23:45
 pindah halaman website, jadi ganti robots.txt dan sitemap.html
+-------------------------------------
 
-07-05-2025 10:20
+07-05-2025 
+
+pukul 10:20
 Merubah title, deskripsi Meta, dan OG
 
-07-05-2025 12:30 - 14:00
+pukul 12:30 - 14:00
 Update G-tag, pindah tag & Menambah verifikasi html dan tag
+-------------------------------------
 
 08-05-2025 07:35
 update Responsive website untuk gallery.html
@@ -147,6 +169,10 @@ update Responsive website untuk gallery.html
 09-05-2025 09:57 - 11:38
 Update <!-- Canonical URL --> untuk pindah website
 Update Open Graph untuk halaman portfolio
+
+11-05-2025 06:20
+Update Deskripsi dari halaman DP-Buku Kepegawaian
+Update Deskripsi download draft DP dan DP Akuntansi Otomatis
 
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
