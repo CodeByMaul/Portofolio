@@ -165,14 +165,19 @@ Update G-tag, pindah tag & Menambah verifikasi html dan tag
 
 08-05-2025 07:35
 update Responsive website untuk gallery.html
+-------------------------------------
 
 09-05-2025 09:57 - 11:38
 Update <!-- Canonical URL --> untuk pindah website
 Update Open Graph untuk halaman portfolio
+-------------------------------------
 
 11-05-2025 06:20
 Update Deskripsi dari halaman DP-Buku Kepegawaian
 Update Deskripsi download draft DP dan DP Akuntansi Otomatis
+
+pukul 12:55
+Menambahkan Favicon, dan Update Navbar supaya best practice dan menarik
 
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
