@@ -190,6 +190,9 @@ pukul 23:45
 Perbaikan CSS halaman Detail Portfolio karena terubah
 -------------------------------------
 
+14-05-2025 pukul 00:04
+Perbaikan JSON-LD halaman Detail Portfolio
+
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
 Tipe Perangkat	Ukuran (px)
