@@ -183,8 +183,11 @@ Menambahkan Favicon, dan Update Navbar supaya best practice dan menarik
 13-05-2025 pukul 23:15
 Perbaikan struktur Head dan penambahan Structured Data JSON-LD, keyword, dan lain-lain
 
-puul 23:37
+pukul 23:37
 Perbaikan JSON-LD dihalaman Home dan About
+
+pukul 23:45
+Perbaikan CSS halaman Detail Portfolio karena terubah
 -------------------------------------
 
 PR untuk selanjutnya:
