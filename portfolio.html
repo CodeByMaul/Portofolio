@@ -1,21 +1,73 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
+  <head>
   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lihat berbagai proyek dan pengalaman 
-    profesional Maulana Satria Nugraha dalam bidang administrasi, keuangan, 
-    dan otomatisasi data menggunakan Excel dan Spreadsheet, ataupun website. 
-    Email: maulana.satria.n03@gmail.com">
+    <meta name="description" content="Jelajahi berbagai proyek administrasi, keuangan, 
+    dan otomatisasi data karya Maulana Satria Nugraha menggunakan Excel, Spreadsheet, dan website.">
+    <meta name="keywords" content="portofolio Maulana Satria Nugraha, project keuangan, project administrasi, 
+    aplikasi Excel, database kepegawaian, aplikasi akuntansi, website sekolah, project data otomatisasi, 
+    Excel spreadsheet, portofolio administrasi">
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="custom.css" />
-    <link rel="stylesheet" href="Responsive.css" />
+    
+    <!-- Icon Website -->
     <link rel="icon" type="image/x-icon" href="/bahan/maul-favicon.ico">
 
     <title>Portfolio of Maulana Satria Nugraha</title>
+
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Portfolio of Maulana Satria Nugraha",
+      "url": "https://maulana-satria.pages.dev/portfolio",
+      "description": "Kumpulan project yang pernah dikerjakan Maulana Satria Nugraha di bidang keuangan dan administrasi.",
+      "creator": {
+        "@type": "Person",
+        "name": "Maulana Satria Nugraha",
+        "url": "https://maulana-satria.pages.dev/",
+        "image": "https://maulana-satria.pages.dev/bahan/Maulana-Satria-Nugraha.webp",
+        "email": "mailto:maulana.satria.n03@gmail.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/maulana-satria-nugraha",
+          "https://www.instagram.com/maulana.satria_n/",
+          "https://www.facebook.com/msn.socialpreneur/",
+          "https://github.com/CodeByMaul"
+        ]
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Project Portfolio in Finance, Administration, Data Automation, Excel and Website Development"
+      },
+      "hasPart": [
+      {
+        "@type": "CreativeWork",
+        "name": "Website Sekolah (Fiktif) DCD Academy",
+        "url": "https://maulana-satria.pages.dev/portfolio/Website-Sekolah-DCD-Academy.html"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Aplikasi Akuntansi Ms.Excel",
+        "url": "https://maulana-satria.pages.dev/portfolio/Excel-Akuntansi-Otomatis.html"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Automasi Buku Kepegawaian Ms.Excel",
+        "url": "https://maulana-satria.pages.dev/portfolio/Excel-Buku-Kepegawaian.html"
+      }
+    ]
+    }
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="custom.css" />
+    <link rel="stylesheet" href="Responsive.css" />
 
     <!-- Open Graph Meta (untuk Facebook, LinkedIn, WhatsApp) -->
     <meta property="og:title" content="Portofolio Maulana Satria Nugraha" />
@@ -44,8 +96,8 @@
       gtag('config', 'G-RJV4SXKQMB');
     </script>
 
-</head>
-<body>
+  </head>
+  <body>
     <section class="container">
         <!-- Navigation Bar Start -->
       <header class="navbar">
@@ -107,17 +159,17 @@
                 <span>Tools: Ms.Excel</span>
               </a>
 
-              <a href="portfolio/Excel-Aplikasi-Keuangan-Sederhana-UMKM.html">
-                <img src="Excel-Aplikasi-Keuangan-Sederhana-UMKM.jpg" alt="Pencatatan Keuangan Sederhana Dengan Excel" />
-                <h2>Pencatatan Keuangan Sederhana dengan Excel</h2>
-                <p>Project ini adalah membuat template untuk membuat pencatatan keuangan sederhana untuk UMKM</p>
-                <span>Tools: Ms.Excel</span>
-              </a>
-
               <a href="portfolio/Excel-Buku-Kontrol-Pembayaran-Mahasiswa.html">
                 <img src="Excel-Buku-Kontrol-Pembayaran-Mahasiswa.jpg" alt="Automasi Buku Kontrol Mahasiswa" />
                 <h2>Automasi Buku Kontrol Pembayaran Mahasiswa</h2>
                 <p>Project Pembuatan Buku Kontrol Pembayaran Mahasiswa dengan Ms.Excel</p>
+                <span>Tools: Ms.Excel</span>
+              </a>
+
+              <a href="portfolio/Excel-Aplikasi-Keuangan-Sederhana-UMKM.html">
+                <img src="Excel-Aplikasi-Keuangan-Sederhana-UMKM.jpg" alt="Pencatatan Keuangan Sederhana Dengan Excel" />
+                <h2>Pencatatan Keuangan Sederhana dengan Excel</h2>
+                <p>Project ini adalah membuat template untuk membuat pencatatan keuangan sederhana untuk UMKM</p>
                 <span>Tools: Ms.Excel</span>
               </a>
               
@@ -159,5 +211,5 @@
         <!-- Footer End -->
     </section>
     <script src="logic.js"></script>
-</body>
+  </body>
 </html>

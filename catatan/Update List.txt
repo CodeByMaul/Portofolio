@@ -178,6 +178,11 @@ Update Deskripsi download draft DP dan DP Akuntansi Otomatis
 
 pukul 12:55
 Menambahkan Favicon, dan Update Navbar supaya best practice dan menarik
+-------------------------------------
+
+13-05-2025 pukul 23:15
+Perbaikan struktur Head dan penambahan Structured Data JSON-LD, keyword, dan lain-lain
+-------------------------------------
 
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
