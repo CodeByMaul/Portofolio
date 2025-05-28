@@ -194,8 +194,13 @@ Perbaikan CSS halaman Detail Portfolio karena terubah
 Perbaikan JSON-LD halaman Detail Portfolio
 -------------------------------------
 
-28-05-2025 pukul 22:32
+28-05-2025 
+
+pukul 22:32
 Update og untuk halaman project Aplikasi Akuntansi Excel - Part 1
+
+pukul 22:43
+Update og untuk halaman project Aplikasi Akuntansi Excel - Part 2
 
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
