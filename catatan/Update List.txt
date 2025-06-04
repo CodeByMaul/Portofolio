@@ -201,6 +201,10 @@ Update og untuk halaman project Aplikasi Akuntansi Excel - Part 1
 
 pukul 22:43
 Update og untuk halaman project Aplikasi Akuntansi Excel - Part 2
+-------------------------------------
+
+05=06-2025 Pukul 05:31
+Penambahan sitename untuk semua halaman
 
 PR untuk selanjutnya:
 <!-- PR Membuat Media Querry:
