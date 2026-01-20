@@ -1,0 +1,441 @@
+[33mcommit 6b4c6a91db8172951902dae7dd604ad30062e8b0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Thu Jun 5 06:27:34 2025 +0700
+
+    tambahan update roadmap.xml
+
+[33mcommit facb11ed80e38ae8fc7e7a9096d1f45a77bc43d2[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Thu Jun 5 05:32:36 2025 +0700
+
+    Penambahan sitename untuk semua halaman
+
+[33mcommit 113074756714ce44645b9e4932b496039c122ff6[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun Jun 1 12:54:02 2025 +0700
+
+    Penambahan _headers untuk mengatur sitemap
+
+[33mcommit f25cdf8f28e374345e41754852282bc6b547e3fc[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun Jun 1 12:32:06 2025 +0700
+
+    Merubah sitemap.xml menjadi roadmap.xml
+
+[33mcommit fb7f658edf15476b1713a573b8256c1758e2c6b0[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed May 28 22:46:07 2025 +0700
+
+    Update og untuk halaman project Aplikasi Akuntansi Excel - Part 2
+
+[33mcommit 643f1e5ffca4582fc83672764217dd5d7ab24365[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed May 28 22:34:36 2025 +0700
+
+    Update og untuk halaman project Aplikasi Akuntansi Excel - Part 1
+
+[33mcommit 1a01478c561326126c8a2e29234c5da4b6edf15a[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri May 16 11:31:54 2025 +0700
+
+    Update link facebook di hiperlink index.html dan JSON semua halaman
+
+[33mcommit 7cc0c9ded105fbf31054dcff9a3c64d706bdc520[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed May 14 00:03:04 2025 +0700
+
+    Perbaikan JSON-LD halaman Detail Portfolio
+
+[33mcommit d3ac6d49282a57556d6000f49372b18f5f8a62cf[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Tue May 13 23:44:39 2025 +0700
+
+    Perbaikan CSS halaman Detail Portfolio karena terubah
+
+[33mcommit 17b60720f7f0f4b64d18fcb6cd169a7f7eded897[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Tue May 13 23:36:43 2025 +0700
+
+    Perbaikan JSON-LD dihalaman Home dan About
+
+[33mcommit 5331e973b9f51433219391af90e631c31cc08e37[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Tue May 13 23:13:23 2025 +0700
+
+    Perbaikan struktur Head dan penambahan Structured Data JSON-LD, keyword, dan lain-lain
+
+[33mcommit 6924b1c6dc187e6d93816e6f93166dbff5ced241[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun May 11 23:08:28 2025 +0700
+
+    little change on sitemap.xml
+
+[33mcommit 7739577d18fcff0db317b441a3f4cfb850178db9[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun May 11 12:56:46 2025 +0700
+
+    Menambahkan Favicon, dan Update Navbar supaya best practice dan menarik
+
+[33mcommit 7ac020253c9a9284fc6fc1e16e9ac77ce43add91[m
+Merge: 5821987 d22a4a7
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun May 11 06:22:42 2025 +0700
+
+    Merge branch 'master' of https://github.com/CodeByMaul/Portofolio karena ada update langsung dari sana
+
+[33mcommit 5821987bd7a927169aec9c7176d6fdb263dc69ed[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun May 11 06:22:04 2025 +0700
+
+    Update Deskripsi Halaman DP-Buku Kepegawaian dan lain-lain
+    
+    Update Deskripsi dari halaman DP-Buku Kepegawaian, Update Deskripsi download draft DP dan DP Akuntansi Otomatis
+
+[33mcommit d22a4a78a740ea5d49473d5be6fcb69a779788c0[m
+Author: Maulana Satria Nugraha <msn.socialpreneur@gmail.com>
+Date:   Fri May 9 11:54:59 2025 +0700
+
+    Rename og-portfolio .webp to og-portfolio.webp
+    
+    salah nama og tuuhh
+
+[33mcommit 6afa64bfbcde0814cba6bf792b3d8c52761684c5[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri May 9 11:39:38 2025 +0700
+
+    Menambahkan Open Graph untuk halaman Portfolio
+
+[33mcommit fda3312bd22559fe157913e5c0a901c7517783fb[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri May 9 09:59:12 2025 +0700
+
+    Update ''Canonical URL'' untuk pindah website
+
+[33mcommit ed95790f7f2789659983eef8d49328f41a7eeb8b[m[33m ([m[1;31morigin/Development[m[33m)[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Thu May 8 07:35:43 2025 +0700
+
+    Update Responsive website untuk halaman Galery.html
+
+[33mcommit 2e2fea6c6c641b8ce009d247e9ace29abcc4e4ea[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed May 7 13:59:14 2025 +0700
+
+    Update G-tag, pindah tag & Menambah verifikasi html dan tag
+
+[33mcommit 8d7a11f16b972ea9f2cac79e13af94110b7349b9[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed May 7 13:26:52 2025 +0700
+
+    Ganti G-tag lagi, semoga kali ini final
+
+[33mcommit 3936f92b36831866fe44899fcb5121c35e3cb81e[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed May 7 13:02:29 2025 +0700
+
+    udah males banget, salah mulu G tag nyagit add .
+
+[33mcommit 380c31f2882035342ed4a5b43fc85e5d602fe32d[m
+Merge: 3fbd1bb 799dc1a
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed May 7 12:58:32 2025 +0700
+
+    Merge branch 'master' of https://github.com/CodeByMaul/Portofolio kesalahan G-tag
+
+[33mcommit 3fbd1bb566cfaa023f1edc6eb0058f66d122cb5f[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed May 7 10:19:09 2025 +0700
+
+    Merubah title, deskripsi Meta, dan OG sesuai Gtag baru
+
+[33mcommit 799dc1aabca375a81239fc994ebffd75e739f529[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed May 7 12:30:10 2025 +0700
+
+    Update G-tag, pindah tag
+
+[33mcommit 6812f271a5d93d068e5d1d4db0f21816478e0b8f[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed May 7 10:19:09 2025 +0700
+
+    Merubah title, deskripsi Meta, dan OG
+
+[33mcommit d213b1f36872134f028b56d45b62a8b877dc543b[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Tue May 6 22:56:10 2025 +0700
+
+    tambah meta property ''og:locale'' untuk menunjukkan region
+
+[33mcommit 1b55b97444c135be9037aba8c83d9dafba60ebf8[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Tue May 6 12:32:32 2025 +0700
+
+    Ada nama og yang masih menggunakan vercel
+
+[33mcommit 77576cabd24dbd68d24911a1a82ae9b63accd5ea[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Mon May 5 23:43:07 2025 +0700
+
+    Ganti halaman, jadi ganti robots.txt dan ganti sitemap.xml
+
+[33mcommit a95d9e33d6858d177f77f48598359da8907043dc[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun May 4 23:33:57 2025 +0700
+
+    merubah nama-nama html agar lebih SEO friendly
+    
+    semua html yang diawali dengan angka, di hilangkan angkanya, karena ternyata tidak SEO friendly
+
+[33mcommit 6d73c2c1952dee72a3b2940db65e6f71b92e8283[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sat May 3 19:45:03 2025 +0700
+
+    update link download via javascript/blob dan membuka halaman Detail Project Automasi Buku Kepegawaian
+    
+    merubah link downloadnya menggunakan javascript/blob, supaya nama file mudah dirubah,//, karena diganti Js/Blob, maka <a> diganti menjadi <span> supaya mudah, lalu diganti style nya.,//, mengupdate -Draft-Detail-Project.html dibagian download filenya.,//, Melengkapi Konten Halaman Automasi Buku Kepegawaian dan membuka Hidenya di 4portfolio.html.
+
+[33mcommit 4d2ba30927040c4f778612266b01d016ca7feec2[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri May 2 23:01:09 2025 +0700
+
+    Melengkapi Portfolio Project Ke 2 - Aplikasi Excel Otomatis
+    
+    Melengkapi Konten Halaman Excel Akuntansi Otomatis dan membuka Hidenya di 4portfolio.html.,//, Membuat Folder Shared yang berisi kumpulan draft yang boleh dibagikan.,//, Menambahkan Foto Priview M dan L untuk Aplikasi Akuntansi.
+
+[33mcommit 76ba9ae07b933ff4d03e6a36e47654a8d009ac54[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri May 2 05:52:39 2025 +0700
+
+    menghide Portfolio pada 2about.html menggunakan id=''coming-soon''
+
+[33mcommit 681165e8293871cc9bc8e9e24963372c36c0b597[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri May 2 05:49:10 2025 +0700
+
+    Perbaikan Responsive Website
+    
+    Merubah Responsive Website halaman portfolio, menambah responsive website 485px untuk .socialMedia div,//, width dari project img dirubah jadi 100% supaya responsive,//, menambah url di sitemap.xml
+
+[33mcommit 4318d17145566f0af3065952e573e772a40ac3f7[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed Apr 30 23:51:05 2025 +0700
+
+    Memperbaiki susunan class dan ID, menghide yang belum jadi, dan menyelesaikan project website
+    
+    Memberikan min-height pada pada class main,//, menambahkan id=''coming-soon'' untuk konten yang masih dalam tahap development, untuk di hide.,//, menghapus Dampak/Value pada -Draft-Detail-Project.html,//, merubah margin Detail-Project
+    Menggabung Dua class (DP-Show ++ DP-Tools ++ DP-Hasil) menjadi DP-Content
+    mengurangi gap pada DP-Tittle,//, Memisahkan Deskripsi Proyek dari DP-Tittle dan memasukannya ke DP-Content tersendiri,//, menambah beberapa container DP-Content di -Draft-Detail-Project.html,//, menambal style DP-Content ul, yang mengatur list fitur,//, merubah logo-linkedin.webp supaya modelnya mirip dengan lainnya.,//, Menambah foto untuk Portofolio website sekolah dan mengatur stylenya - akan dipakai dilainnya juga,//, penambahan isi Website-Sekolah-DCD-Academy.html.
+
+[33mcommit f0b9cd5f38d91df222df66c9a0ddf674afce8d74[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Mon Apr 28 22:56:16 2025 +0700
+
+    Perbaikan Robots.txt dan style untuk DP-Show iframe {}
+
+[33mcommit a3813cfd9c5a03052135bef9338d178ce01d441f[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Mon Apr 28 22:47:16 2025 +0700
+
+    Pembaruan untuk halaman about, galery, dan project, membuat draft Detail project, dan kelengkapan lainnya
+    
+    Merubah style class=inpage dan penggunaannya di .html (sekarang memakai div);//; merubah style class=project;//; memberikan class=Button pada ''Aprofil a'' dan menggunakannya pada Detail project;//; memberikan glow effect pada navbar dan ''Project a'';//; melengkapi konten Detail-Project;//; menambah halaman Draft Project Detail untuk mempermudah pembuatan list project baru;//; update robots.txt
+
+[33mcommit 3f89468c61b1ca8832553039ba958f16ec651e32[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Mon Apr 28 13:02:55 2025 +0700
+
+    Menghidden Gallery yang masih kosong,//, Memperbaiki margin class=inpage
+
+[33mcommit 8168efff4a1877f39de6f2f9f323d27057401881[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun Apr 27 22:51:27 2025 +0700
+
+    Pemasangan Google Analitics
+    
+    Pemasangan Google Analitics ini bertujuan untuk mengetahui jumlah pengunjung yang datang ke website ini
+
+[33mcommit 9d75e36a19920c7139aabd8353cc06525d1757d9[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun Apr 27 21:51:04 2025 +0700
+
+    Edit url google font
+
+[33mcommit e147042ac5a65b3acba82d933f0f1a442f1c0492[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun Apr 27 20:10:20 2025 +0700
+
+    mengeluarkan google font dari file ''.css'' dan menaruhnya langsung di semua ''.html'' serta menambahkan pre-connect
+
+[33mcommit 93d90b2adb258564166ab2ca48c8f245bb2f9f86[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun Apr 27 19:31:46 2025 +0700
+
+    Update Besar-besaran halaman Gallery dan Portofolio
+    
+    Membungkus Album untuk setiap tempat kerja dalam <article>,//, Memasangkan Foto dan keterangannya masing-masing,//, menambahkan style pada 3gallery.html,//, mengganti setiap Nama Folder pada /gallery,//, menambah class=''inpage'' khusus judul,//,  membuat folder portfolio yang berisi file html detail dari masing-masing project,//, menambahkan meta social,//, edit style class=''alert''
+
+[33mcommit 72bbd72703d7c5bd5d6acb6054e70141035505d3[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Mon Apr 21 17:44:45 2025 +0700
+
+    Perbaikan untuk hide content di 3gallery.html
+
+[33mcommit 30d0fd45d44989ed43b44ec390cbc970c64aed15[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Mon Apr 21 17:40:46 2025 +0700
+
+    Meningkatkan keamanan dan SEO Website, serta mempersiapkan foto-foto untuk ''3.gallery.html''
+    
+    Merubah kembali alt dari foto profil menjadi Photo - Maulana Satria Nugraha ,//, menambahkan rel=''noopener'' pada hiperlink media sosial pada index.html. ,//, Merubah semua tittle website ,//, Menambahkan robots.txt dan sitemap.xml untuk meningkatkan SEO  ,//, Merubah ''3galeri.html'' menjadi ''3gallery.html'' dan ''4portofolio.html'' menjadi ''4portfolio.html''  ,//, Mengupload Folder /Gallery berisi foto-foto kerja.  ,//, Mengisi halaman Galery (sementara di hide dulu)
+
+[33mcommit 5fedef9e4fa13ee1983ce1ac6c6bc9c090c2352a[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun Apr 20 07:30:09 2025 +0700
+
+    Mengganti Nama Foto dan altnya dengan Maulana-Satria-Nugraha
+    
+    Perubahan ini bermaksud untuk meningkatkan tingkat SEO dan meningkatkan tingkat kemunculan foto profil di pencarian google
+
+[33mcommit 748dfaba3df5a0e56951385d61742cc44d505530[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri Apr 18 10:59:31 2025 +0700
+
+    erubah style button index.html
+    
+    merubah style warna ''.started button'' agar lebih jelas warnanya
+
+[33mcommit 926c777da544d5f2803b58da008b4cd8625daf63[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri Apr 18 10:46:49 2025 +0700
+
+    Tambah Deskripsi Meta dan Merubah <h3> dan <h5> bentuk class
+    
+    Menambahkan Deskripsi Meta pada setiap halaman. email: maulana.satria.n03@gmail.com,//, Membuat Aexp urut sesuai ukuran H1-H5 (tidak ada yang double), menambahkan class=''H5'' dan ''H3'' sebagai pengganti H5 dan H3 yang mengakibatkan score accesibility turun.,//, menghapus style .Aexp span,//, merubah style warna ''.Aprofil a'' agar lebih jelas warnanya
+
+[33mcommit fadcc53638f5058de0a907e6b68d6d759608e0df[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sun Mar 30 10:43:05 2025 +0700
+
+    Pemisahan antara css biasa dengan media query (responsive website) dan menambah styling
+    
+    merubah height .home dan footer,//, menambahkan section .main pada 2about.html,//,Membuat Responsive.css,//, custom.css : menghilangkan gap pada .navbar,/, merubah padding-top pada class ''home'',/, mengurangi gap pada .socialMedia,/, merubah padding-top pada .Aprofil,/, menambah style untuk ''Askill p {}'',/, merubah manambah text-align:center pada ''.Alert'',''Aexp h3'',''Aexp h5'',//, Responsive.css : Merubah ukuran .started h1,/, menambah flex-direction:column untuk class .Aport,/, merubah padding untuk Askill & Aexp beserta bawahnya,/, menambah media max-width 1000px & 485px.
+
+[33mcommit 763622209bce12738588daee8d6e4c6e430f8aa2[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri Mar 28 22:57:31 2025 +0700
+
+    Penambahan Section Profesional Journey dan Penyesuaian Responsive website
+    
+    Mengurangi ukuran semua gambar,//, Merubah Warna huruf pada seluruh body,//, menambahkan ''widht:sreen'' pada container dan ''width:fit-content'' pada responsive-nya,//, perubahan index.html: Menghilangkan <a> pada button dan memasukkan link langsung di button,/, Merubah Padding .home agar lebih responsive,//, Perubahan 2about.html : Memperbarui Subjudul pada setiap bagian pada halaman,/, Memperbarui ringkasan Profil,/, Merubah ukuran Foto saat layar kecil,/, Merubah margin pada ''.Askill div {}''  ,/, Menambahkan section Professional Journey dan CSS yang dibutuhkan,/, menambagkan style khusus untuk h3 dan class .italic,/,
+
+[33mcommit e69579291bb0f29c2dacb8269c2152b954f3740c[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Wed Mar 26 22:15:33 2025 +0700
+
+    Membuat navbar burger untuk tampilan lebih responsive
+    
+    Membuat class baru : .nav-link, .burger ,//, membuat style css untuk class dan menu terkait ,//,  membuat file javascript: logic.js.
+
+[33mcommit 5228f16f20d5729941f3dcdc36aaa04a3d25d251[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Tue Mar 25 15:21:51 2025 +0700
+
+    Memperbaiki footer dan menambahkan style responsive
+    
+    Footer diperbaiki dengan menghilangkan ''place-content:center'',//, penyesuaian padding pada class=Alert,//, menambahkan style reponsive-website,//, membuat tombol bercahaya,// menambahkan class=Askill.
+
+[33mcommit 4e68820e5c2ad9fb7ccd6b5cf16863a1a47eaa7e[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Mon Mar 24 22:08:10 2025 +0700
+
+    Update Halaman Home dan About, beserta CSS dan lain2
+    
+    Merubah semua extensi gambar menjadi '.webp' , foto_CV.png di hapus, foto_CV-2 di rename menjadi foto_CV., menambahkan style default untuk <a>, menambahkan container Main, penyesuaian style css = Memindahkan semua margin dan padding kanan/kiri halaman ke class container menjadi 'padding: 0 3%', merubah style hover untuk durasi transisi navbar dan link socialmedia, merubah padding class socialMedia, merubah padding dan width pada navbar. menambahkan 'alt=' pada setiap gambar. menambahkan background color dan padding 10px pada foto profil. menghilangkan class 'Atentang', memperbaiki isi dan css 'Aprofil'.
+
+[33mcommit 06a28223a94aba08da592a3f81244a5b76fe3eb3[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Mon Mar 24 09:08:57 2025 +0700
+
+    Mengganti Hamalan awal dan About, dll
+    
+    Memindah halaman index ke halaman about, karna kayaknya lebih cocok seperti itu, merubah tampilan navbar dan footer semua halaman, memperbaiki beberapa class di html dan css
+
+[33mcommit cfd0c64eb018a5956b44a4d7b1c406d838003e50[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Sat Mar 22 14:05:52 2025 +0700
+
+    Merubah Total Menu Index, Header dan Footer
+
+[33mcommit a954bdec11c7d6d2e43dc7cf0fa03f428a81784c[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri Mar 21 15:12:43 2025 +0700
+
+    Merubah Warna menu-hover, merubah footer
+
+[33mcommit 9fcbea10056b74a474b6b2fe61b0cdf16ef827cf[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri Feb 21 19:28:16 2025 +0700
+
+    Upload Perbaikan Portofolio Part 2
+
+[33mcommit c9637d3890fbdb68399d5190e2660f0dacdcfffe[m
+Author: Maulana Satria Nugraha <msn.socialpreneur@gmail.com>
+Date:   Fri Feb 21 18:06:57 2025 +0700
+
+    Update custom.css
+    
+    Update Data Diri (percobaan 1)
+
+[33mcommit 5ca202c68f1093ab3473c7e5922c17cdaf47f88d[m
+Author: Maulana Satria Nugraha <msn.socialpreneur@gmail.com>
+Date:   Fri Feb 21 18:03:33 2025 +0700
+
+    Update 2about.html
+    
+    Update Data Diri (percobaan 1)
+
+[33mcommit 0ae02317f8121918caa1e1b351781bb7d9b6a978[m
+Author: Maulana Satria Nugraha <msn.socialpreneur@gmail.com>
+Date:   Fri Feb 21 17:47:48 2025 +0700
+
+    Update index.html
+    
+    salah nomor WA
+
+[33mcommit 33f28839bd5f466860f90a09849e656b6572c441[m
+Author: Maulana Satria Nugraha <msn.socialpreneur@gmail.com>
+Date:   Fri Feb 21 17:43:10 2025 +0700
+
+    Update 4portofolio.html
+    
+    Perubahan dari 1home.html menjadi index.html, karna baru tau salah
+
+[33mcommit 32a7628649828e18849a05b59441eac69720ef34[m
+Author: Maulana Satria Nugraha <msn.socialpreneur@gmail.com>
+Date:   Fri Feb 21 17:42:48 2025 +0700
+
+    Update 3galeri.html
+    
+    Perubahan dari 1home.html menjadi index.html, karna baru tau salah
+
+[33mcommit 75f84d9d5c2efa2f3a18f4ced3927a1197a6031d[m
+Author: Maulana Satria Nugraha <msn.socialpreneur@gmail.com>
+Date:   Fri Feb 21 17:42:17 2025 +0700
+
+    Update 2about.html
+    
+    Perubahan dari 1home.html menjadi index.html, karna baru tau salah
+
+[33mcommit 8b92c1702505e745fb1e3e6b8d9d7f015c646a8b[m
+Author: Maulana Satria Nugraha <msn.socialpreneur@gmail.com>
+Date:   Fri Feb 21 17:41:16 2025 +0700
+
+    Rename 1home.html to index.html
+    
+    Salah nulis nama file, thehe
+
+[33mcommit 7332958a600ed799807f13c37b74611bc7468aaa[m
+Author: unknown <msn.socialpreneur@gmail.com>
+Date:   Fri Feb 21 17:15:39 2025 +0700
+
+    first commit
